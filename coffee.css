@@ -12,3 +12,20 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* putting the two p elements in the article on the same line */
+.item p {
+    display:inline-block;
+}
+
+/* flavor and price put the flavours and prices in opposite sides of the  */
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
