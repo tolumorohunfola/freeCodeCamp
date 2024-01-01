@@ -1,0 +1,28 @@
+main {
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: end;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+      "left header right"
+      "left main right"
+      "left footer right";
+  }
+
+  img {
+    grid-area: right;
+    size: 44px;
+  }
+
+  p .main {
+    grid-area: main;
+  }
+
+  #heading {
+    color: black;
+    text-align: start;
+    grid-area: header;
+  }
